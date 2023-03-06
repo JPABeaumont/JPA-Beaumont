@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0px;
+    padding: Opx;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 5px solid #44ae19;
+}
+
+
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+    font-size: 27px;
+    font-weight: bold;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #019A66;
+    margin-right: 10px;
+    border-bottom: 2px solid #019A66;
+    padding-bottom: 5px;
+} 
+
+header{
+     display: flex;
+     flex-wrap:wrap;
+     align-items: center;
+     justify-content:center;
+     /* MODIFICATION DE LA BANNIERE*/
+     background:url('bannière\ JPA.png');
+     /* FIN MODIFICATION DE LA BANNIERE*/
+     width: 1550px;
+     height:810px;
+     background-repeat: no-repeat;
+     color:#fff;
+     border-bottom: 5px solid #44ae19;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+header h3{
+    margin-top: -20px;
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+img {
+        float: left;
+        width:  400px;
+        height: 400px;
+        object-fit: cover;
+}
+    
+
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin:20px;
+}
+
+.main table{
+    width:1200px;
+    height:auto;
+
+}
+h2{
+    font-size:40px;
+    font-weight: bold; 
+    color:#019A66;
+}
+caption {
+    font-size:40px;
+    font-weight: bold; 
+    color:#019A66;
+}
+
+th, caption{
+    text-align:center;
+    margin-bottom: 20px;
+    
+}
+
+table, th, td {
+    border: 2px solid #019A66;
+    border-collapse:collapse;
+    padding: 10px;
+
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+
+td img{
+    border-radius: 8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+tr:nth-child(even){
+    background-color: #fff;
+}
+tr:nth-child(odd){
+    background-color: #019A66;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+footer{
+    margin-top:40px;
+    border-top: 5px solid #019A66;
+    background-color:#fff;
+    color:#019A66;
+    padding:30px 100px;
+}
+footer h1{
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #019A66;
+    width:12%;
+    padding-bottom: 5px;
+}
+footer .contacts{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer .contacts .contact{
+    margin-right: 30px;
+
+}
+
+footer .contacts .contact p{
+    max-width: 300px;
+}
+
+.fa fa-phone{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+.fa fa-facebook{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+.fa-facebook {
+    background:#019A66;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+  }
+i{
+  background-color: white;
+  align-items: center;
+
+}
+
+@media screen and (max-width:680px){
+    nav.onglets{
+        margin-left: 0px ;
+        margin-bottom: 20px;
+    }
+
+    .main .content .table img{
+        height:200px;
+        width: 100%;
+        margin-top: -0px;
+     
+    }
+    .main .content {
+        display: block;
+    }
+   
+    footer{
+        padding: 30px;
+    }
+
+}
+
+
